@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+.container{
+    max-width: 1000px;
+    background-color: rgb(178, 210, 178);
+    margin: 0 auto;
+}
+
+.header-bio{
+    float: left;
+    padding: 30px;
+
+    
+}
+.header-bio a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.header-bio a:hover{
+    text-decoration: dotted;
+    color: brown;
+}
+
+h1,h2,h3,h4,h5{
+    color: blue;
+}
+
+.clear-div{
+    clear: both;
+}
+.profile-pic{
+    width: 150px;
+    height: 160px;
+    border: 3x solid white;
+    border-radius: 50%;
+    float: right;
+    padding: 30px;
+}
+.personal-title{
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+.personal-para{
+    font-size: 20px;
+    text-align: justify;
+    padding: 10px;
+}
+.name-bio{
+    color: blue;
+    padding: 20px;
+   
+}
+table{
+    border: 2x solid black;
+    width: 100%;
+    margin-bottom: 15px;
+}
+th,td{
+    border: 2x solid black; 
+   padding: 2px;
+}
+th{
+    background-color: green;
+    color: white;
+}
+tr{
+    text-align: center;
+}
+tr:hover{
+    background-color: red;
+}
+
+.footer-bio{
+    background-color: rgb(85, 73, 73);
+    text-align: center;
+    padding: 10px;
+    
+}
+.footer-bio a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+
+   
+
+    
+}
+.footer-bio a:hover{
+    background-color: red;
+}
